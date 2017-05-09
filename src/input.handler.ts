@@ -68,7 +68,7 @@ export class InputHandler {
             }
 
             if (selectionRangeLength == this.inputService.rawValue.length) {
-                this.setValue(0);
+                this.setValue(null);
                 this.onModelChange(this.inputService.value);
             }
         }
